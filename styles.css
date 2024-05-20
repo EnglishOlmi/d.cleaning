@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f7ff; /* Очень светло-голубой фон */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    background-color: #004080; /* Темно-голубой фон */
+    color: white;
+}
+
+.header-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.left div {
+    display: flex;
+    flex-direction: column;
+}
+
+.left p {
+    margin: 0;
+}
+
+.logo {
+    max-height: 80px;
+    margin-right: 10px;
+}
+
+.right {
+    text-align: right;
+}
+
+.right p {
+    margin: 2px 0; /* Уменьшенные отступы между текстом */
+}
+
+h2 {
+    text-align: center; /* Заголовки по центру */
+}
+
+.about, .why-choose-us {
+    text-align: left;
+    padding: 20px;
+    width: 60%; /* Ширина 60% экрана */
+    margin: 0 auto; /* Центрирование секций */
+}
+
+.why-choose-us ul {
+    list-style-type: disc;
+    padding-left: 20px; /* Отступ слева для маркеров списка */
+    text-align: left; /* Выровнять текст списка по левому краю */
+}
+
+.why-choose-us li {
+    margin-bottom: 10px; /* Отступы между пунктами списка */
+}
+
+.services {
+    text-align: center;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Сетка 3 на 4 */
+    grid-gap: 10px;
+    max-width: 1000px; /* Максимальная ширина */
+    margin: 0 auto;
+}
+
+.service-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #ffffff; /* Белый фон для блоков услуг */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.cta {
+    text-align: center; /* Скидка по центру */
+    background-color: #0080ff; /* Темно-голубой фон */
+    color: white;
+    padding: 20px;
+    width: 60%; /* Ширина 60% экрана */
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 60px;
+}
+
+footer {
+    text-align: center; /* Футер по центру */
+    padding: 10px;
+    background-color: #002060; /* Темно-голубой фон */
+    color: white;
+}
